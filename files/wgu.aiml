@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-	<aiml>
-
-<!-- Greeting -->
+	<!-- Greeting -->
 <category>
 <pattern>HELLO</pattern>
 <template>
@@ -50,6 +47,9 @@ You may enjoy being a Systems Administrator. This role manages servers and IT in
 You may enjoy being a UX/UI Designer. This role focuses on improving user experience and interface design.
 </template>
 </category>
+	<aiml>
+
+
 
 </aiml>
 </aiml>
