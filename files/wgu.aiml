@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<aiml>
+
+<!-- Greeting -->
+<category>
+<pattern>HELLO</pattern>
+<template>
+Hi! I can help you find a career in computer science. What do you enjoy most: coding, data, security, systems, or design?
+</template>
+</category>
+
+<!-- Software Developer -->
+<category>
+<pattern>I LIKE CODING</pattern>
+<template>
+You may enjoy being a Software Developer. This role involves building applications and solving problems using code.
+</template>
+</category>
+
+<!-- Data Analyst -->
+<category>
+<pattern>I LIKE DATA</pattern>
+<template>
+You may enjoy being a Data Analyst. This role focuses on analyzing data to find trends and support decisions.
+</template>
+</category>
+
+<!-- Cybersecurity -->
+<category>
+<pattern>I LIKE SECURITY</pattern>
+<template>
+You may enjoy being a Cybersecurity Analyst. This role protects systems from cyber threats.
+</template>
+</category>
+
+<!-- Systems Admin -->
+<category>
+<pattern>I LIKE SYSTEMS</pattern>
+<template>
+You may enjoy being a Systems Administrator. This role manages servers and IT infrastructure.
+</template>
+</category>
+
+<!-- UX/UI -->
+<category>
+<pattern>I LIKE DESIGN</pattern>
+<template>
+You may enjoy being a UX/UI Designer. This role focuses on improving user experience and interface design.
+</template>
+</category>
+
+</aiml>
+</aiml>
