@@ -9,14 +9,14 @@ Hi! I can help you find a career in computer science. What do you enjoy most?
 1. Coding
 2. Data
 3. Security
-3. Systems
+4. Systems
 5. Design
 </template>
 </category>
 
 <!-- Software Developer -->
 <category>
-<pattern>I LIKE CODING</pattern>
+<pattern>CODING</pattern>
 <template>
 You may enjoy being a Software Developer. This role involves building applications and solving problems using code.
 </template>
@@ -32,7 +32,7 @@ You selected Coding. You may enjoy being a Software Developer. This role involve
 
 <!-- Data Analyst -->
 <category>
-<pattern>I LIKE DATA</pattern>
+<pattern>DATA</pattern>
 <template>
 You may enjoy being a Data Analyst. This role focuses on analyzing data to find trends and support decisions.
 </template>
@@ -47,7 +47,7 @@ You selected Data. You may enjoy being a Data Analyst. This role focuses on anal
 
 <!-- Cybersecurity -->
 <category>
-<pattern>I LIKE SECURITY</pattern>
+<pattern>SECURITY</pattern>
 <template>
 You may enjoy being a Cybersecurity Analyst. This role protects systems from cyber threats.
 </template>
@@ -61,13 +61,13 @@ You selected Security. You may enjoy being a Cybersecurity Analyst. This role pr
 
 <!-- Systems Admin -->
 <category>
-<pattern>I LIKE SYSTEMS</pattern>
+<pattern>SYSTEMS</pattern>
 <template>
 You may enjoy being a Systems Administrator. This role manages servers and IT infrastructure.
 </template>
 </category>
  <category>
-    <pattern>I LIKE SYSTEMS</pattern>
+    <pattern>4</pattern>
     <template>
 You may enjoy being a Systems Administrator. This role manages servers and IT infrastructure.
     </template>
@@ -76,12 +76,12 @@ You may enjoy being a Systems Administrator. This role manages servers and IT in
 
 <!-- UX/UI -->
 <category>
-<pattern>I LIKE DESIGN</pattern>
+<pattern>DESIGN</pattern>
 <template>
 You may enjoy being a UX/UI Designer. This role focuses on improving user experience and interface design.
 </template>
 </category>
-	<aiml>
+	
 <category>
     <pattern>5</pattern>
     <template>
@@ -98,9 +98,9 @@ Type HELLO to begin. Then choose:
 3 for Security
 4 for Systems
 5 for Design
-    </template>
+</template>
 </category>
 
 
-</aiml>
+
 </aiml>
