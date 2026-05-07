@@ -4,7 +4,13 @@
 <category>
 <pattern>HELLO</pattern>
 <template>
-Hi! I can help you find a career in computer science. What do you enjoy most: coding, data, security, systems, or design?
+Hi! I can help you find a career in computer science. What do you enjoy most?
+
+1. Coding
+2. Data
+3. Security
+3. Systems
+5. Design
 </template>
 </category>
 
@@ -15,6 +21,14 @@ Hi! I can help you find a career in computer science. What do you enjoy most: co
 You may enjoy being a Software Developer. This role involves building applications and solving problems using code.
 </template>
 </category>
+<category>
+    <pattern>1</pattern>
+    <template>
+You selected Coding. You may enjoy being a Software Developer. This role involves building applications and solving problems using code.
+    </template>
+</category>
+
+
 
 <!-- Data Analyst -->
 <category>
@@ -23,6 +37,13 @@ You may enjoy being a Software Developer. This role involves building applicatio
 You may enjoy being a Data Analyst. This role focuses on analyzing data to find trends and support decisions.
 </template>
 </category>
+<category>
+    <pattern>2</pattern>
+    <template>
+You selected Data. You may enjoy being a Data Analyst. This role focuses on analyzing data to find trends and support decisions.
+    </template>
+</category>
+
 
 <!-- Cybersecurity -->
 <category>
@@ -30,6 +51,12 @@ You may enjoy being a Data Analyst. This role focuses on analyzing data to find 
 <template>
 You may enjoy being a Cybersecurity Analyst. This role protects systems from cyber threats.
 </template>
+</category>
+<category>
+    <pattern>3</pattern>
+    <template>
+You selected Security. You may enjoy being a Cybersecurity Analyst. This role protects systems from cyber threats.
+    </template>
 </category>
 
 <!-- Systems Admin -->
@@ -39,6 +66,13 @@ You may enjoy being a Cybersecurity Analyst. This role protects systems from cyb
 You may enjoy being a Systems Administrator. This role manages servers and IT infrastructure.
 </template>
 </category>
+ <category>
+    <pattern>I LIKE SYSTEMS</pattern>
+    <template>
+You may enjoy being a Systems Administrator. This role manages servers and IT infrastructure.
+    </template>
+</category>
+
 
 <!-- UX/UI -->
 <category>
@@ -48,7 +82,24 @@ You may enjoy being a UX/UI Designer. This role focuses on improving user experi
 </template>
 </category>
 	<aiml>
+<category>
+    <pattern>5</pattern>
+    <template>
+You selected Design. You may enjoy being a UX/UI Designer. This role focuses on improving user experience and interface design.
+    </template>
+</category>
 
+<category>
+    <pattern>HELP</pattern>
+    <template>
+Type HELLO to begin. Then choose:
+1 for Coding
+2 for Data
+3 for Security
+4 for Systems
+5 for Design
+    </template>
+</category>
 
 
 </aiml>
